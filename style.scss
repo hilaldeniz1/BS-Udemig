@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.navbar {
+        // background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+        background: linear-gradient(
+          112deg,
+          rgb(50, 61, 61) 10%,
+          rgb(148, 148, 194) 72%
+        );
+
+.nav-item a:hover{
+    transform: scale(1.1);
+    transition: ease .5s;
+    color: gray !important;
+}
+
+}
+
+/* SLIDER */
+
+ .carousel{ //carousel ait class
+  position: relative;
+
+  img{
+    border-radius: 50%;
+    height: 450px;
+    opacity: 0.7;
+    object-fit: cover;
+  }
+
+   &-caption{ //carousel-caption a ait class
+    position: absolute;
+    top: 50%;
+    h5,p{
+      text-shadow: 1px 5px 4px black;
+    }
+    
+
+  }
+  
+}
+
+
+/* card*/ 
+
+.card{
+  &:hover{//.card clasının uzerıne gelınce 
+    box-shadow: 2px 2px 15px rgb(189, 185, 185);
+    transform: scale(1.05);
+    transition: ease .7s;
+  }
+}
+
+
+
+/* TITLE*/ 
+
+.title{
+  background: linear-gradient(115deg, rgb(34,34,34) 7%,rgb(0, 40, 60) 50%,rgb(0, 143, 213) 93%);
+
+
+  .breadcrumb-item::before{
+    color: white ;
+  }
+
+}
+
+
+/* accordion*/ 
+
+.accordion{
+  background: linear-gradient(to left ,rgba(77, 126, 190, 0.767), rgba(142, 164, 206, 0.623));
+
+}
+
+      
